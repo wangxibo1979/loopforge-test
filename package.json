@@ -1,0 +1,19 @@
+{
+  "name": "loopforge-test",
+  "version": "0.1.0",
+  "description": "审计日志演示服务：按操作人筛选、CSV 导出与成员数据权限",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "audit-log",
+    "csv-export"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.22.3"
+  }
+}
