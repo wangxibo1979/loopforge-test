@@ -1,0 +1,15 @@
+{
+  "name": "loopforge-audit-log",
+  "version": "0.1.0",
+  "private": true,
+  "description": "审计日志：按操作人筛选 + 筛选结果导出 CSV（含服务端数据权限裁剪）",
+  "type": "commonjs",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/main.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
